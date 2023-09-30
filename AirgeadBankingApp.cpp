@@ -231,7 +231,7 @@ void AirgeadBankingFunctions::getInputValues(double& initialInvestment, double& 
 
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
-    std::cout << "\nPress any key to continue...";
+    std::cout << "\nPress 'enter' to continue...";
     std::cin.get();
 
     // Validate input
